@@ -1,0 +1,11 @@
+[project]
+name = "swagger-to-skill"
+version = "0.2.0"
+description = "Convert OpenAPI/Swagger specifications into agent skills with SKILL.md and reference docs."
+requires-python = ">=3.14"
+dependencies = [
+    "requests>=2.32.5",
+]
+
+[project.scripts]
+swagger-to-skill = "swagger_to_skill.__main__:main"
