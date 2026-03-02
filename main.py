@@ -13,10 +13,10 @@ Usage
     python main.py example.json -o my-skill -n my-api-skill
 
     # Or as a module:
-    python -m swagger_to_skill example.json
+    python -m doc_to_skill example.json
 """
 
-from swagger_to_skill.__main__ import main
+from doc_to_skill.__main__ import main
 
 if __name__ == "__main__":
     main()

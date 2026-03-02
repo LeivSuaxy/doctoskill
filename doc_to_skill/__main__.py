@@ -1,4 +1,4 @@
-"""CLI entry point: ``python -m swagger_to_skill``."""
+"""CLI entry point: ``python -m doc_to_skill``."""
 
 from __future__ import annotations
 
